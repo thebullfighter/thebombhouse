@@ -1,6 +1,6 @@
 body {
 	background: #FFFFFF;
-	color: #FFFFFF;
+	color: #000000;
 	text-align:center;
 	font-family:Helvetica;
 	font-size:24px;
@@ -21,16 +21,16 @@ p {
 }
 
 footer {
-	position:fixed;
+	position:center;
 	bottom:0;
 	font-size: 14px;
 	padding: 1%;
 }
 
 .topnav{
-	position:fixed;
+	position:center;
 	top:0;
-	background-color: #DDDDDD;
+	background-color: #FFFFFF;
 }
 
 .topnav a {
