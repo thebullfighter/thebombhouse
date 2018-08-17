@@ -1,0 +1,264 @@
+:root {
+  --primary: #fff;
+  --dark: #7F8C8D;
+  --light: #fff;
+  --hover: #800080;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+
+}
+
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark);
+}
+
+body {
+  background: #FFFFFF;
+  margin: 30px 50px;
+  line-height: 1.4;
+}
+
+.btn {
+  background: var(--dark);
+  color: var(--light);
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+}
+
+/* Navigation */
+.main-nav ul {
+  display: grid;
+  grid-gap: 20px;
+  padding: 0;
+  list-style: none;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.main-nav a {
+  background: #FFA07A;
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem;
+  text-align: center;
+  color: var(--light);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.main-nav a:hover {
+  background: var(--hover);
+  color: var(--light);
+}
+/* Navigation End */
+
+/* Top Container start */
+.site {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+      "title title"
+      "main main"
+      "footer footer"
+}
+
+a {
+  color: #FFA07A;
+  font-size: 10px;
+}
+
+.main-content-left {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding: 1.5rem 0 0 0;
+  border-bottom: 1px dotted black;
+}
+
+.main-content-right {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  padding: 0 1rem;
+  border-bottom: 1px dotted black;
+}
+
+.site2 {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: auto;
+}
+
+.main-content-left2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding: 1.5rem 0 0 0;
+  border-bottom: 1px dotted black;
+}
+
+.main-content-right2 {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  padding: 0 1rem;
+  border-bottom: 1px dotted black;
+}
+
+.site3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.main-content-middle {
+  grid-column: 1/1;
+  grid-row: 1/1;
+  padding: 1.5rem 0 0 0;
+  border-bottom: 1px dotted black;
+}
+
+.diagram1 {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  grid-template-rows: auto;
+}
+
+.main-content-left3 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding: 1.5rem 0 0 0;
+}
+
+.main-content-right3 {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  padding: 100px 1rem;
+}
+
+.diagram2 {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  grid-template-rows: auto;
+}
+
+.main-content-left4 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding: 1.5rem 0 0 0;
+}
+
+.main-content-right4 {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  padding: 100px 1rem;
+}
+
+.diagram3 {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  grid-template-rows: auto;
+}
+
+.main-content-left5 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding: 0 1rem;
+}
+
+.main-content-right5 {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  padding: 100px 1rem;
+}
+
+.diagram4 {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  grid-template-rows: auto;
+}
+
+.main-content-left6 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding: 0 1rem;
+}
+
+.main-content-right6 {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  padding: 100px 1rem;
+}
+
+.diagram5 {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  grid-template-rows: auto;
+}
+
+.main-content-left7 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding: 0 1rem;
+  border-bottom: 1px dotted black;
+}
+
+.main-content-right7 {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  padding: 100px 1rem;
+  border-bottom: 1px dotted black;
+}
+
+.main-content-middle2 {
+  grid-column: 1/1;
+  grid-row: 1/1;
+  padding: 1.5rem 0 0 0;
+  padding-bottom: 35px;
+  border-bottom: 1px dotted black;
+}
+
+.arguments {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: auto;
+}
+
+.main-content-left8 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding: 1.5rem 0 0 0;
+  border-bottom: 1px dotted black;
+}
+
+.main-content-right8 {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  padding: 0 1rem;
+  border-bottom: 1px dotted black;
+
+/* Top Container End */
+
+/* Showcase */
+
+/* Showcase End */
+
+
+
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  background: #FFA07A;
+  color: var(--light);
+  text-align: center;
+  padding: 1rem;
+}
+/* Footer End */
