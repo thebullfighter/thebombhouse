@@ -254,7 +254,8 @@ a {
 
 
 /* Footer */
-footer {
+
+.footer {
   margin-top: 2rem;
   background: #FFA07A;
   color: var(--light);
